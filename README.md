@@ -1,16 +1,10 @@
 # singleton_pattern
 
-A new Flutter project.
+Dart project to apply on Singleton design pattern.
+The `Database` class ensures that only one instance of the class is created,
+and the `Client` class verifies that the Singleton pattern is correctly applied.
 
-## Getting Started
+## Files
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- `database.dart`: Contains the `Database` class with a private constructor and a static method to get the instance.
+- `client.dart`: Contains the `Client` class that creates two instances of `Database` and checks if they are the same.
